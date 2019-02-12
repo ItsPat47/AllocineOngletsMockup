@@ -1,0 +1,41 @@
+.allTheMovies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movieOne {
+  display: flex;
+  margin-bottom: 20px;
+  margin-right: 20px;
+
+  background-color: white;
+  height: 300px;
+  width: 600px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.moviePoster {
+  width: 200px;
+}
+
+.allInfo {
+  padding: 10px;
+  background-color: white;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.titleMovie {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.date {
+  color: grey;
+  font-size: 14px;
+}

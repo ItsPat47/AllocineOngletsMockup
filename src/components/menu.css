@@ -1,0 +1,16 @@
+.menu {
+  height: 70px;
+  width: 100%;
+
+  background-color: #f8cc46;
+}
+
+.logoAllocine {
+  margin: auto;
+  width: 65%;
+}
+
+.logo {
+  margin-top: 10px;
+  height: 50px;
+}
