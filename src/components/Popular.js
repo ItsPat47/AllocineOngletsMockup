@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import "./movies.css";
 
 class Popular extends Component {
   state = {
@@ -27,8 +28,12 @@ class Popular extends Component {
               </div>
               <div className="allInfo">
                 <div className="info">
-                  <div key={movies.id}>{movies.title}</div>
-                  <div key={movies.id}>{movies.release_date}</div>
+                  <div className="titleMovie" key={movies.id}>
+                    {movies.title}
+                  </div>
+                  <div className="date" key={movies.id}>
+                    {movies.release_date}
+                  </div>
                 </div>
                 <div key={movies.id}>{movies.overview}</div>
                 <div />
