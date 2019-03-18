@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./movies.css";
+
 import axios from "axios";
 
 class Upcoming extends Component {
